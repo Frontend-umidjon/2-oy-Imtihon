@@ -1,0 +1,18 @@
+.container{
+    max-width: 1156px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+.container__large{
+    max-width: 1312px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+.container__small{
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+a{
+    text-decoration: none;
+}

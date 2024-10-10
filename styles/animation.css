@@ -1,0 +1,11 @@
+.hero__content{
+    animation: dropdown 2s ease  forwards;
+    opacity: 0;
+    
+}
+@keyframes dropdown {
+    to{
+        padding-top: 167px;
+        opacity: 1;
+    }
+}
