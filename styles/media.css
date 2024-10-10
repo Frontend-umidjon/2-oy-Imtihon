@@ -1,3 +1,20 @@
+@media (max-width:1210px) {
+    .brands__image{
+        padding: 43px 60px;
+    }
+    .footer__content{
+        flex-direction: column;
+        
+    }
+    .footer__list{
+        margin-top: 50px;
+        flex-direction: column;
+        width: 311px;
+        margin: 0;
+        gap: 20px;
+    }
+    
+}
 @media (max-width:1199px) {
     .container__large{
         max-width: 976px;
@@ -18,6 +35,18 @@
     .language__link{
         display: none;
     }
+    .rent-form__submit{
+        right: 0;
+    }
+}
+@media (max-width: 1024px) {
+    .rent-form__submit{
+        right: 0;
+    }
+    .service__list{
+        display: flex;
+        overflow: auto;
+    }
 }
 @media (max-width:990px) {
     .property{
@@ -25,6 +54,50 @@
     }
     .menu{
         display: initial;
+    }
+    .rent-car__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+@media (max-width:890px) {
+    .destkop-logo{
+        display: none;
+
+    }
+    .mobile-logo{
+        display: block;
+    }
+    .rent-form__submit{
+        right: 0;
+    }
+    .rent-car{
+        display: flex;
+        flex-direction: column;
+    }
+    .rent-car__content{
+        margin-bottom: 40px;
+    }
+    .rent-car__title{
+        max-width: 448px;
+    }
+    .rent-car__description{
+        max-width: 448px;
+    }
+    .brands__list{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .brands__item{
+        border: none;
+    }
+    .brands__item:nth-child(3), :nth-child(5){
+        display: none;
+    }
+    .brands__image{
+        border-bottom:2px solid #E6E8EC; ;
     }
 }
 @media (max-width:767px) {
@@ -55,5 +128,44 @@
             opacity: 1;
         }
         
+    }
+    .bottom{
+        display: block;
+        margin-top: 48px;
+    }
+    .top{
+        display: none;
+    }
+    .destination__heading{
+        font-size: 40px;
+        line-height:   48px;
+    }
+    .rent-car__title{
+        font-size: 40px;
+        line-height: 48px;
+        max-width: 311px;
+    }
+    .rent-car__description{
+        font-size: 16px;
+        line-height: 24px;
+        max-width: 311px;
+    }
+    .products__line{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .service__list{
+        display: grid;
+        grid-template-columns: 1fr;
+        overflow: visible;
+    }
+    .faq__categories-list{
+        display: none;
+    }
+    .category-select{
+        display: initial;
+    }
+    .footer__content{
+        flex-direction: column;
     }
 }

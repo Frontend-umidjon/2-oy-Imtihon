@@ -34,7 +34,7 @@
                     <a href="./index.html"><img src="./assets/logo.png" alt="" class="navbar__logo"></a>
                     <ul class="nav__list">
                         <li class="nav__list-item"><a href="#" class="nav__list-link">Features </a>
-                            <span> <i style="color: #777E90;" class="fa-solid fa-chevron-up"></i></span>
+                            <span> <i style="color: var(--text-sy-color);" class="fa-solid fa-chevron-up"></i></span>
                             <ul class="submenu">
                                 <li><a href="#">Cars</a></li>
                                 <li><a href="#">Additional Services</a></li>
@@ -73,24 +73,601 @@
     </section>
     <section class="container">
         <div class="destinations">
-            <h2 class="destinations__heading">
-                Popular Destinations
-            </h2>
-            <p class="destinations__text">for car rentals</p>
+            <div class="destinations__header">
+                <div class="destinations__header-content">
+                    <h2 class="destinations__heading">
+                        Popular Destinations
+                    </h2>
+                    <p class="destinations__text">for car rentals</p>
+                </div>
+                <div class="destinations__header-actions top">
+                    <button class="navigation"><i class="fa-solid fa-arrow-left"></i></button>
+                    <button class="navigation right"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
             <div class="destinations__list">
                 <div class="destination__card">
                     <img src="./assets/destination1.jpeg" alt="" class="destination__image">
+                    <span class="price">
+                        <p>from $540 per day</p>
+                    </span>
                     <div class="destination__content">
                         <h3 class="destination__title">
                             Paris
                         </h3>
-                        <p class="destination__text">
+                        <p class="destination__description">
+                            Car rentals in 86 pickup locations
+                        </p>
+                    </div>
+                </div>
+                <div class="destination__card">
+                    <img src="./assets/destination2.jpeg" alt="" class="destination__image">
+                    <span class="price">
+                        <p>from $540 per day</p>
+                    </span>
+                    <div class="destination__content">
+                        <h3 class="destination__title">
+                            London
+                        </h3>
+                        <p class="destination__description">
+                            Car rentals in 86 pickup locations
+                        </p>
+                    </div>
+                </div>
+                <div class="destination__card">
+                    <img src="./assets/destination3.jpeg" alt="" class="destination__image">
+                    <span class="price">
+                        <p>from $540 per day</p>
+                    </span>
+                    <div class="destination__content">
+                        <h3 class="destination__title">
+                            Ams
+                        </h3>
+                        <p class="destination__description">
+                            Car rentals in 86 pickup locations
+                        </p>
+                    </div>
+                </div>
+                <div class="destination__card">
+                    <img src="./assets/destination4.jpeg" alt="" class="destination__image">
+                    <span class="price">
+                        <p>from $540 per day</p>
+                    </span>
+                    <div class="destination__content">
+                        <h3 class="destination__title">
+                            Milan
+                        </h3>
+                        <p class="destination__description">
+                            Car rentals in 86 pickup locations
+                        </p>
+                    </div>
+                </div>
+                <div class="destination__card">
+                    <img src="./assets/destination1.jpeg" alt="" class="destination__image">
+                    <span class="price">
+                        <p>from $540 per day</p>
+                    </span>
+                    <div class="destination__content">
+                        <h3 class="destination__title">
+                            Paris
+                        </h3>
+                        <p class="destination__description">
+                            Car rentals in 86 pickup locations
+                        </p>
+                    </div>
+                </div>
+                <div class="destination__card">
+                    <img src="./assets/destination2.jpeg" alt="" class="destination__image">
+                    <span class="price">
+                        <p>from $540 per day</p>
+                    </span>
+                    <div class="destination__content">
+                        <h3 class="destination__title">
+                            London
+                        </h3>
+                        <p class="destination__description">
+                            Car rentals in 86 pickup locations
+                        </p>
+                    </div>
+                </div>
+                <div class="destination__card">
+                    <img src="./assets/destination3.jpeg" alt="" class="destination__image">
+                    <span class="price">
+                        <p>from $540 per day</p>
+                    </span>
+                    <div class="destination__content">
+                        <h3 class="destination__title">
+                            Ams
+                        </h3>
+                        <p class="destination__description">
+                            Car rentals in 86 pickup locations
+                        </p>
+                    </div>
+                </div>
+                <div class="destination__card">
+                    <img src="./assets/destination4.jpeg" alt="" class="destination__image">
+                    <span class="price">
+                        <p>from $540 per day</p>
+                    </span>
+                    <div class="destination__content">
+                        <h3 class="destination__title">
+                            Milan
+                        </h3>
+                        <p class="destination__description">
                             Car rentals in 86 pickup locations
                         </p>
                     </div>
                 </div>
             </div>
+            <div class="destinations__header-actions bottom">
+                <button class="navigation"><i class="fa-solid fa-arrow-left"></i></button>
+                <button class="navigation right"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <button class="destination__btn">
+                Show More <i class="fa-solid fa-chevron-right"></i>
+            </button>
+        </div>
     </section>
+    <section class="container">
+        <div class="rent-car">
+            <div class="rent-car__content">
+                <p class="rent-car__text">supercharge your planning powers</p>
+                <h2 class="rent-car__title">
+                    Rent a car in minutes with Fleet
+                </h2>
+                <p class="rent-car__description">Stacks is a production-ready library of stackable content blocks built
+                    in React Native.</p>
+                <div class="rent-car__form">
+                    <input type="text" class="rent-form__input" placeholder="Enter your phone number">
+                    <button class="rent-form__submit"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <img class="destkop-logo" src="./assets/logo-destkop.png" alt="">
+            <img class="mobile-logo" src="./assets/logo-mobile.png" alt="">
+        </div>
+    </section>
+    <section class="container">
+        <div class="products">
+            <div class="destinations__header">
+                <div class="destinations__header-content">
+                    <h2 class="destinations__heading">
+                        Explore nearby
+                    </h2>
+                    <p class="destinations__text">for car rentals</p>
+                </div>
+                <div class="destinations__header-actions top">
+                    <button class="navigation"><i class="fa-solid fa-arrow-left"></i></button>
+                    <button class="navigation right"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="products__line">
+                <div class="products__card">
+                    <img src="./assets/destination1.jpeg" alt="" class="products__image">
+                    <span class="price">
+                        <p>from $540 per day</p>
+                    </span>
+                    <div class="products__content">
+                        <h3 class="destination__title">
+                            London
+                        </h3>
+                        <p class="products__description">
+                            Car rentals in 86 pickup locations
+                        </p>
+                    </div>
+                </div>
+                <div class="products__card">
+                    <img src="./assets/destination2.jpeg" alt="" class="products__image">
+                    <span class="price">
+                        <p>from $540 per day</p>
+                    </span>
+                    <div class="products__content">
+                        <h3 class="products__title">
+                            London
+                        </h3>
+                        <p class="products__description">
+                            Car rentals in 86 pickup locations
+                        </p>
+                    </div>
+                </div>
+                <div class="products__card">
+                    <img src="./assets/destination3.jpeg" alt="" class="products__image">
+                    <span class="price">
+                        <p>from $540 per day</p>
+                    </span>
+                    <div class="products__content">
+                        <h3 class="products__title">
+                            London
+                        </h3>
+                        <p class="products__description">
+                            Car rentals in 86 pickup locations
+                        </p>
+                    </div>
+                </div>
+                <div class="products__card">
+                    <img src="./assets/destination3.jpeg" alt="" class="destination__image">
+                    <span class="price">
+                        <p>from $540 per day</p>
+                    </span>
+                    <div class="products__content">
+                        <h3 class="products__title">
+                            London
+                        </h3>
+                        <p class="products__description">
+                            Car rentals in 86 pickup locations
+                        </p>
+                    </div>
+                </div>
+                <div class="products__card">
+                    <img src="./assets/destination4.jpeg" alt="" class="products__image">
+                    <span class="price">
+                        <p>from $540 per day</p>
+                    </span>
+                    <div class="products__content">
+                        <h3 class="products__title">
+                            London
+                        </h3>
+                        <p class="products__description">
+                            Car rentals in 86 pickup locations
+                        </p>
+                    </div>
+                </div>
+                <div class="products__card">
+                    <img src="./assets/destination2.jpeg" alt="" class="products__image">
+                    <span class="price">
+                        <p>from $540 per day</p>
+                    </span>
+                    <div class="products__content">
+                        <h3 class="products__title">
+                            London
+                        </h3>
+                        <p class="products__description">
+                            Car rentals in 86 pickup locations
+                        </p>
+                    </div>
+                </div>
+                <div class="products__card">
+                    <img src="./assets/destination3.jpeg" alt="" class="products__image">
+                    <span class="price">
+                        <p>from $540 per day</p>
+                    </span>
+                    <div class="products__content">
+                        <h3 class="products__title">
+                            London
+                        </h3>
+                        <p class="products__description">
+                            Car rentals in 86 pickup locations
+                        </p>
+                    </div>
+                </div>
+                <div class="products__card">
+                    <img src="./assets/destination4.jpeg" alt="" class="products__image">
+                    <span class="price">
+                        <p>from $540 per day</p>
+                    </span>
+                    <div class="products__content">
+                        <h3 class="products__title">
+                            London
+                        </h3>
+                        <p class="products__description">
+                            Car rentals in 86 pickup locations
+                        </p>
+                    </div>
+                </div>
+                <div class="products__card">
+                    <img src="./assets/destination2.jpeg" alt="" class="products__image">
+                    <span class="price">
+                        <p>from $540 per day</p>
+                    </span>
+                    <div class="products__content">
+                        <h3 class="products__title">
+                            London
+                        </h3>
+                        <p class="products__description">
+                            Car rentals in 86 pickup locations
+                        </p>
+                    </div>
+                </div>
+                <button class="products__btn">
+                    Show More <i class="fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="service">
+            <div class="service__content">
+                <p class="service__text">
+                    A creative agency that lead and inspire
+                </p>
+                <h2 class="service__heading">
+                    Amazing Services
+                </h2>
+                <button class="service__button">
+                    Contact us
+                </button>
+            </div>
+            <div class="service__list">
+                <div class="service__item">
+                    <div class="service-item__content">
+                        <img src="./assets/smile.png" alt="" class="service__image">
+                        <h3 class="service__title">
+                            1+M reviewers
+                        </h3>
+                        <p class="service__description">
+                            We realize ideas from simple to complex, everything becomes easy to use and reach the most
+                            potential customers.
+                        </p>
+                    </div>
+                </div>
+                <div class="service__item">
+                    <div class="service-item__content">
+                        <img src="./assets/lightning.png" alt="" class="service__image">
+                        <h3 class="service__title">
+                            24/7 customer service
+                        </h3>
+                        <p class="service__description">
+                            We realize ideas from simple to complex, everything becomes easy to use and reach the most
+                            potential customers.
+                        </p>
+                    </div>
+                </div>
+                <div class="service__item">
+                    <div class="service-item__content">
+                        <img src="./assets/gift.png" alt="" class="service__image">
+                        <h3 class="service__title">
+                            Free cancellation
+                        </h3>
+                        <p class="service__description">
+                            We realize ideas from simple to complex, everything becomes easy to use and reach the most
+                            potential customers.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="brands">
+            <div class="brands__list">
+                <div class="brands__item">
+                    <img src="./assets/RotaShow.png" alt="" class="brands__image">
+                </div>
+                <div class="brands__item">
+                    <img src="./assets/logo 02.png" alt="" class="brands__image">
+                </div>
+                <div class="brands__item">
+                    <img src="./assets/logo 06.png" alt="" class="brands__image">
+                </div>
+                <div class="brands__item">
+                    <img src="./assets/logo 04.png" alt="" class="brands__image">
+                </div>
+                <div class="brands__item">
+                    <img src="./assets/logo 05.png" alt="" class="brands__image">
+                </div>
+                <div class="brands__item">
+                    <img src="./assets/RotaShow.png" alt="" class="brands__image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container__small">
+        <div class="faq">
+            <h2 class="faq__heading"> Frequently asked questions</h2>
+            <div class="faq__categories-list">
+                <div class="faq__category">
+                    <p>General</p>
+                </div>
+                <div class="faq__category">
+                    <p>Support</p>
+                </div>
+                <div class="faq__category">
+                    <p>Hosting</p>
+                </div>
+                <div class="faq__category">
+                    <p>Product</p>
+                </div>
+            </div>
+            <select name="select" id="" class="category-select">
+                <option value="" class="select-item">General</option>
+                <option value="" class="select-item">Support</option>
+                <option value="" class="select-item">Hosting</option>
+                <option value="" class="select-item">Product</option>
+            </select>
+            <div class="faq__item">
+                <div class="faq__question">
+                    <p class="question-number">01</p>
+                    <p class="question-text">How does it work?</p>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="faq__answer">
+                    <p class="answer__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur
+                        turpis in
+                        justo
+                        fringilla, id tristique neque tempus. Curabitur vel convallis arcu, non sollicitudin
+                        felis.
+                        Nulla facilisi. Nullam vel ipsum et arcu bibendum fermentum.</p>
+                </div>
+            </div>
+            <div class="faq__item">
+                <div class="faq__question">
+                    <p class="question-number">02</p>
+                    <p class="question-text">How can i set up a new website?</p>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="faq__answer">
+                    <p class="answer__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur
+                        turpis in
+                        justo
+                        fringilla, id tristique neque tempus. Curabitur vel convallis arcu, non sollicitudin
+                        felis.
+                        Nulla facilisi. Nullam vel ipsum et arcu bibendum fermentum.</p>
+                </div>
+            </div>
+            <div class="faq__item">
+                <div class="faq__question">
+                    <p class="question-number">03</p>
+                    <p class="question-text">How does it work?</p>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="faq__answer">
+                    <p class="answer__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur
+                        turpis in
+                        justo
+                        fringilla, id tristique neque tempus. Curabitur vel convallis arcu, non sollicitudin
+                        felis.
+                        Nulla facilisi. Nullam vel ipsum et arcu bibendum fermentum.</p>
+                </div>
+            </div>
+            <div class="faq__item">
+                <div class="faq__question">
+                    <p class="question-number">04</p>
+                    <p class="question-text">How does it work?</p>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="faq__answer">
+                    <p class="answer__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur
+                        turpis in
+                        justo
+                        fringilla, id tristique neque tempus. Curabitur vel convallis arcu, non sollicitudin
+                        felis.
+                        Nulla facilisi. Nullam vel ipsum et arcu bibendum fermentum.</p>
+                </div>
+            </div>
+            <div class="faq__item">
+                <div class="faq__question">
+                    <p class="question-number">05</p>
+                    <p class="question-text">How does it work?</p>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="faq__answer">
+                    <p class="answer__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur
+                        turpis in
+                        justo
+                        fringilla, id tristique neque tempus. Curabitur vel convallis arcu, non sollicitudin
+                        felis.
+                        Nulla facilisi. Nullam vel ipsum et arcu bibendum fermentum.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="locations">
+            <h2 class="locations__heading"> Recommended pickup locations</h2>
+            <p class="locations__text">A lot of amazing experiences 🏝</p>
+            <div class="locations__list">
+                <div class="locations__item">
+                    <div class="location-item__content">
+                        <span class="location-number">128</span>
+                        <img src="./assets/Car.png" alt="" class="location__image">
+                        <h3 class="location__title">
+                            South Virgilland
+                        </h3>
+                        <p class="location__address">
+                            From Rs. 1,461 per day
+                        </p>
+                    </div>
+                </div>
+                <div class="locations__item">
+                    <div class="location-item__content">
+                        <span class="location-number">256</span>
+                        <img src="./assets/Car.png" alt="" class="location__image">
+                        <h3 class="location__title">
+                            Purdyhaven
+                        </h3>
+                        <p class="location__address">
+                            From Rs. 1,461 per day
+                        </p>
+                    </div>
+                </div>
+                <div class="locations__item">
+                    <div class="location-item__content">
+                        <span class="location-number">128</span>
+                        <img src="./assets/Car.png" alt="" class="location__image">
+                        <h3 class="location__title">
+                            Port Jarrett
+                        </h3>
+                        <p class="location__address">
+                            From Rs. 1,461 per day
+                        </p>
+                    </div>
+                </div>
+                <div class="locations__item">
+                    <div class="location-item__content">
+                        <span class="location-number">256</span>
+                        <img src="./assets/Car.png" alt="" class="location__image">
+                        <h3 class="location__title">
+                            Purdyhaven
+                        </h3>
+                        <p class="location__address">
+                            From Rs. 1,461 per day
+                        </p>
+                    </div>
+                </div>
+                <div class="locations__item">
+                    <div class="location-item__content">
+                        <span class="location-number">256</span>
+                        <img src="./assets/Car.png" alt="" class="location__image">
+                        <h3 class="location__title">
+                            Purdyhaven
+                        </h3>
+                        <p class="location__address">
+                            From Rs. 1,461 per day
+                        </p>
+                    </div>
+                </div>
+                <div class="locations__item">
+                    <div class="location-item__content">
+                        <span class="location-number">256</span>
+                        <img src="./assets/Car.png" alt="" class="location__image">
+                        <h3 class="location__title">
+                            Purdyhaven
+                        </h3>
+                        <p class="location__address">
+                            From Rs. 1,461 per day
+                        </p>
+                    </div>
+                </div>
+                <div class="locations__item">
+                    <div class="location-item__content">
+                        <span class="location-number">256</span>
+                        <img src="./assets/Car.png" alt="" class="location__image">
+                        <h3 class="location__title">
+                            Purdyhaven
+                        </h3>
+                        <p class="location__address">
+                            From Rs. 1,461 per day
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="destinations__header-actions top">
+                <button class="navigation"><i class="fa-solid fa-arrow-left"></i></button>
+                <button style="border:2px solid #E6E8EC ; margin-bottom: 136px;" class="navigation right"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </section>
+    <footer  class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <img src="./assets/logo.png" alt="" class="footer__logo">
+                <div class="footer__list">
+                    <a href="" class="footer__link">About</a>
+                    <a href="" class="footer__link">Projects</a>
+                    <a href="" class="footer__link">What We Do</a>
+                    <a href="" class="footer__link">Press</a>
+                    <a href="" class="footer__link">Jobs</a>
+                    <a href="" class="footer__link">Download</a>
+                </div>
+                <div class="newsletter__form">
+                    <h2 class="newsletter__title">Join our community 🔥</h2>
+                    <input type="text" class="newsletter__input" placeholder="Enter your email">
+                    <button class="newsletter__submit"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <p class="copyright">Copyright © 2021 UI8 LLC. All rights reserved</p>
+        </div>
+    </footer>
 </body>
 
 </html>
